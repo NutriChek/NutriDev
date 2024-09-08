@@ -14,11 +14,11 @@ export default function NavBar() {
       </NavbarBrand>
       <NavbarContent className='hidden sm:flex gap-4' justify='center'>
         <NavbarItem>
-          <Link href='#'>?</Link>
+          <Link href='/tokens'>Tokens</Link>
         </NavbarItem>
         <NavbarItem isActive>
-          <Link href='#' aria-current='page'>
-            ?
+          <Link href='/app' aria-current='page'>
+            Home
           </Link>
         </NavbarItem>
         <NavbarItem>
