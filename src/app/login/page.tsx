@@ -10,7 +10,7 @@ export default function Page() {
   const toggleVisibility = () => setIsVisible(!isVisible);
   
   return (
-    <div className='flex-grow gap-2 pt-4'>
+    <div className='flex-col flex-grow gap-2 pt-4 items-center'>
 
 
       <Input className='max-w-xs' variant={"bordered"} type='email' label='Email' placeholder='Enter your email' />

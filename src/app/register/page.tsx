@@ -10,7 +10,7 @@ export default function Page() {
   const toggleVisibility = () => setIsVisible(!isVisible);
   
   return (
-    <div className='flex-grow gap-2 pt-4'>
+    <div className='flex-col flex gap-2 pt-4 items-center'>
 
       <Input className='max-w-xs' variant={"bordered"} type='username' label='Username' placeholder='Enter a username' />
       <Input className='max-w-xs' variant={"bordered"} type='email' label='Email' placeholder='Enter your email' />
@@ -29,7 +29,7 @@ export default function Page() {
           </button>
         }
         type={isVisible ? "text" : "password"}
-        className="max-w-xs"
+        className="max-w-xs self-center"
       />
       <Input
         label="Repeat Password"
